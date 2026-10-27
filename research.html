@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maxim Dinsa · Software assurance research</title>
+<meta name="description" content="Maxim Dinsa is researching how small businesses prove the software they build or commission is secure and well made.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+  /* EDIT ME: replace the three placeholders marked EDIT below (booking link, email, photo). */
+  :root{
+    --paper:#F2F4F0; --ink:#17211D; --muted:#4F5C56; --green:#1F5A43; --mint:#DCE8DF; --line:#C9D4CC;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --paper:#111815; --ink:#E7EDE9; --muted:#A6B3AC; --green:#7CC4A1; --mint:#1C2B24; --line:#2C3B34; }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.6 "Schibsted Grotesk",system-ui,sans-serif}
+  main{max-width:44rem;margin:0 auto;padding:4.5rem 1.25rem 4rem}
+  a{color:var(--green)}
+  a:focus-visible,.btn:focus-visible{outline:3px solid var(--green);outline-offset:3px;border-radius:4px}
+  .who{display:flex;align-items:center;gap:1rem;margin-bottom:3rem}
+  .photo{width:64px;height:64px;border-radius:50%;background:var(--mint);flex:none;object-fit:cover;border:1px solid var(--line)}
+  .who p{margin:0;line-height:1.35}
+  .who strong{font-weight:700}
+  .who span{color:var(--muted);font-size:.95rem}
+  h1{font-weight:800;font-size:clamp(2.1rem,6vw,3.3rem);line-height:1.05;letter-spacing:-.02em;margin:0 0 1.5rem;max-width:18ch}
+  .lede{font-size:1.25rem;line-height:1.5;color:var(--muted);max-width:36rem;margin:0 0 2.25rem}
+  .btn{display:inline-block;background:var(--green);color:var(--paper);text-decoration:none;font-weight:700;padding:.9rem 1.4rem;border-radius:999px}
+  .btn:hover{filter:brightness(1.08)}
+  .note{color:var(--muted);font-size:.95rem;margin:.9rem 0 0}
+  section{margin-top:4rem;padding-top:2rem;border-top:1px solid var(--line)}
+  h2{font-size:1.35rem;font-weight:700;margin:0 0 1rem;letter-spacing:-.01em}
+  ul{padding-left:1.2rem;margin:0}
+  li{margin:.35rem 0}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.25rem 2rem}
+  .grid p{margin:0}
+  .grid b{display:block;margin-bottom:.2rem}
+  footer{max-width:44rem;margin:0 auto;padding:2rem 1.25rem 3rem;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+  .initials{display:flex;align-items:center;justify-content:center;font-weight:800;color:var(--green);font-size:1.3rem}
+</style>
+</head>
+<body>
+<main>
+  <div class="who">
+    <!-- EDIT: replace src with your photo file, e.g. maxim.jpg -->
+    <div class="photo initials" aria-hidden="true">MD</div><!-- swap for: <img class="photo" src="maxim.jpg" alt="Maxim Dinsa"> -->
+    <p><strong>Maxim Dinsa</strong><br><span>Software engineer and technical director, 19 years</span></p>
+  </div>
+
+  <h1>How do you know the software you paid for is safe?</h1>
+  <p class="lede">I'm researching how small businesses, agencies and founders check that the software they build, commission or create with AI tools is secure and well made, and how they prove it to their own customers.</p>
+
+  <!-- EDIT: replace # with your booking link (Calendly, Cal.com, Google Calendar booking page) -->
+  <a class="btn" href="#">Book a 10-minute call</a>
+  <p class="note">I'm not selling anything. I just want to hear about your experience.</p>
+
+  <section aria-labelledby="talk">
+    <h2 id="talk">What we'd talk about</h2>
+    <ul>
+      <li>The last time someone questioned whether your software was secure or properly built</li>
+      <li>What you did about it, and what that cost</li>
+      <li>Who decides and pays for that kind of check in your business</li>
+    </ul>
+    <p class="note">As a thank-you, I can run a free automated review of your app or donate £75 to a charity of your choice.</p>
+  </section>
+
+  <section aria-labelledby="who">
+    <h2 id="who">Who I'd like to hear from</h2>
+    <div class="grid">
+      <p><b>Agency owners</b>Teams that build software for clients and hand it over.</p>
+      <p><b>SaaS founders and CTOs</b>Selling to businesses that ask awkward questions.</p>
+      <p><b>AI-assisted builders</b>Anyone who has built an app with Lovable, Bolt, Cursor or similar.</p>
+      <p><b>Buyers and investors</b>People who commission software or back the companies that make it.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="me">
+    <h2 id="me">About me</h2>
+    <p>I've spent 19 years in software engineering. I'm currently a technical director responsible for engineering standards and AI tooling, and from 2012 to 2020 I founded and ran Media Cabin, a digital product consultancy that delivered everything from start-up apps to a regulated investment platform.</p>
+    <!-- EDIT: add your LinkedIn URL and email -->
+    <p><a href="#">LinkedIn</a> · <a href="mailto:hello@example.com">hello@example.com</a></p>
+  </section>
+</main>
+<footer>Conversations are confidential. I won't share your name or company, and I'll only quote you anonymously with your permission.</footer>
+</body>
+</html>
